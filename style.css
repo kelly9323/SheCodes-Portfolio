@@ -88,6 +88,31 @@ p {
 .project-description {
   padding: 120px 60px 0;
 }
+.logo{
+  max-height: 40px;
+}
+nav{
+  padding: 20px 0;
+}
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 30px;
+  margin-left: 10px ;
+}
+nav ul{
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out ;
+}
+
+nav li.active a, nav a:hover {
+  color: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
