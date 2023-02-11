@@ -88,29 +88,74 @@ p {
 .project-description {
   padding: 120px 60px 0;
 }
-.logo{
+.logo {
   max-height: 40px;
 }
-nav{
+nav {
   padding: 20px 0;
 }
-nav li{
+nav li {
   display: inline;
   list-style: none;
   line-height: 30px;
-  margin-left: 10px ;
+  margin-left: 10px;
 }
-nav ul{
+nav ul {
   padding: 0;
 }
 nav a {
   text-decoration: none;
   color: #272142;
-  transition: all 100ms ease-in-out ;
+  transition: all 100ms ease-in-out;
 }
 
-nav li.active a, nav a:hover {
+nav li.active a,
+nav a:hover {
   color: var(--branding-color);
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  display: block;
+  text-align: center;
+  margin: 60px;
+  font-weight: 500;
+}
+footer {
+  margin: 60px 0;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links {
+  text-align: center;
+}
+footer .social-links a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  font-size: 18px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+h4 {
+  font-size: 48px;
 }
 
 @media (max-width: 960px) {
@@ -135,5 +180,11 @@ nav li.active a, nav a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .contact-box {
+    padding: 30px;
+  }
+  h4 {
+    font-size: 18px;
   }
 }
