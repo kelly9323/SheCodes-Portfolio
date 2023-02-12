@@ -33,7 +33,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -46,7 +46,7 @@ p {
   font-size: 24px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 30px;
@@ -154,7 +154,7 @@ footer .contact-box {
 footer .contact-box p {
   margin: 0;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -170,9 +170,6 @@ h4 {
     text-align: center;
     padding: 0;
   }
-  .hero {
-    padding: 80px 20px;
-  }
   .about-section {
     text-align: center;
     padding: 0;
@@ -184,7 +181,7 @@ h4 {
   .contact-box {
     padding: 30px;
   }
-  h4 {
+  h3 {
     font-size: 18px;
   }
 }
